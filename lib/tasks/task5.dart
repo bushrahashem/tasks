@@ -24,7 +24,6 @@ class _Task5State extends State<Task5> {
   Widget build(BuildContext context) {
     // padding -> single child scroll view -> form -> column -> [text form filed email , text form filed password ,  login button]
     //remove debug banner
-    debugShowCheckedModeBanner:
     false;
 
     return Scaffold(
