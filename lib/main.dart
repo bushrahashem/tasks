@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // Set the home widget to the task you want to use
-      home: const Task15(),
+      home: Task15(),
     );
   }
 }
