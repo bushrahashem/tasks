@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'tasks/task16.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
 // import 'tasks/task1.dart';
 // import 'tasks/task2.dart';
@@ -14,7 +16,10 @@ import 'tasks/task16.dart';
 // import 'package:provider/provider.dart';
 // import 'views/product_view_widget.dart';
 
-void main() {
+void main() async {
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(
     // If you need provider functionality, uncomment the below code:
     // MultiProvider(
