@@ -85,5 +85,4 @@ class DefaultFirebaseOptions {
     storageBucket: 'task-cpf-fc3af.firebasestorage.app',
     measurementId: 'G-7LXM7K6RSE',
   );
-
 }
